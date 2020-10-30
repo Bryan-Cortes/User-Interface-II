@@ -182,7 +182,7 @@ header {
 
 .logo_container {
   margin-left: 3%;
-  font-size: 5rem;
+  font-size: 7rem;
   color: white;
 }
 
@@ -203,6 +203,15 @@ nav a {
   letter-spacing: 3px;
   color: white;
   font-size: 2rem;
+}
+
+nav a:hover {
+  background-color: white;
+  color: tomato;
+}
+
+header div .fab:hover {
+  font-size: 10rem;
 }
 /* Cover/intro section */
 .cover {
@@ -246,6 +255,11 @@ nav a {
   padding: 1%;
   background-color: tomato;
 }
+
+.name a:hover {
+  background-color: white;
+  color: tomato;
+}
 /* About me section */
 .about_Me {
   height: 100vh;
@@ -255,8 +269,9 @@ nav a {
   align-items: center;
 }
 .about_Me h2 {
-  font-size: 4rem;
+  font-size: 5rem;
   margin-left: 5%;
+  color: tomato;
 }
 .about_Me p {
   margin: 5%;
@@ -288,8 +303,9 @@ section .right {
   width: 100vw;
 }
 .project_Section h2 {
+  color: tomato;
   width: 80%;
-  font-size: 5rem;
+  font-size: 7rem;
   margin: 0 auto;
   text-align: center;
 }
@@ -317,6 +333,7 @@ section .right {
 .box a {
   text-decoration: none;
   width: 100%;
+  color: white;
 }
 .box h3 {
   text-align: center;
@@ -360,7 +377,20 @@ footer a {
   font-size: 2rem;
   background-color: tomato;
 }
-
-.footerBottomP {
+footer a:hover {
+  background-color: white;
+  color: tomato;
+}
+/* .footerBottomP {
   font-size: 1.6rem;
+} */
+
+.foooter_icons {
+}
+.footer_icons a {
+  margin: 1%;
+  padding: 0.5%;
+}
+footer .fab:hover {
+  font-size: 3rem;
 }
