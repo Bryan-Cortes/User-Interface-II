@@ -193,7 +193,7 @@ nav {
   background-color: tomato;
   margin: 3% 0;
   width: 90%;
-  height: 5vh;
+  height: 1vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -219,7 +219,7 @@ header div .fab:hover {
 /* Cover/intro section */
 .cover {
   width: 100%;
-  height: 83vh;
+  height: 90vh;
   background-image: url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
   background-repeat: no-repeat;
   background-size: cover;
@@ -392,9 +392,9 @@ footer .fab:hover {
   font-size: 3rem;
 }
 
-/* ******************* MOBILE STYLES **************  */
+/* ******************* tablets STYLES **************  */
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
   /* header / navigation bar*/
   .logo_container a {
     font-size: 5rem;
@@ -409,7 +409,9 @@ footer .fab:hover {
     font-size: 1.7rem;
   }
   /* Cover/intro section */
-
+  .cover {
+    height: 92vh;
+  }
   .name h1 {
     font-size: 10rem;
   }
